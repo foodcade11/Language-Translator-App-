@@ -15,7 +15,7 @@ body{
     background: #5372F0;
 }
 .container{
-    width: 690px;
+    width: 790px;
     background: #fff;
     border-radius: 7px;
     padding: 30px;
@@ -105,3 +105,97 @@ border-right: 1px solid #bbb;
     background: #5372F0;
     
 }
+
+
+@media (max-width: 660px){
+    .container{
+      padding: 20px;
+      width: 500px;
+      
+      
+      
+    }
+    .wrapper .text-input{
+      flex-direction: column;
+      
+    }
+    .text-input .to-text{
+      border-left: 0px;
+      border-top: 1px solid #ccc;
+    }
+    .text-input textarea{
+      height: 200px;
+      
+    }
+    .controls .row.icons {
+      display: none;
+      width: 200px;
+      
+    }
+    
+    .container button{
+      padding: 13px;
+      font-size: 16px;
+    }
+    .controls .row select{
+      font-size: 16px;
+    }
+    .controls .exchange{
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 412px){
+
+   
+.container{
+    
+    padding: 20px;
+    width: 400px;
+    
+    
+}
+
+  .wrapper .text-input{
+    flex-direction: column;
+  
+  }
+  .wrapper{
+   
+    margin-right: 120px;
+    width: 100%;
+  }
+  .text-input .to-text{
+    border-left: 0px;
+    border-top: 1px solid #ccc;
+    
+  }
+  .text-input textarea{
+    height: 200px;
+    
+  }
+  .controls .row.icons {
+    display: none;
+    width: 40px;
+
+  }
+  
+  .icons{
+    display: block;
+    
+  }
+  
+  .container button{
+    padding: 13px;
+    font-size: 16px;
+  }
+  .controls .row select{
+    font-size: 12px;
+    
+  }
+  
+  .controls .exchange{
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  }
