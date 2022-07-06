@@ -61,7 +61,7 @@ fetch(apiUrl).then(res => res.json()).then(data =>{
 
 });
 
-icons.forEach(icon => {
+icons.forEach(icon => { 
     icon.addEventListener('click', function({target})  {
         if(target.classList.contains("fa-copy")){
             // if clicked icon has from id, copy the fromtextarea value else copy the toTextarea value
